@@ -8,12 +8,12 @@ I've included a makefile to compile this from source. It should be cross platfor
 Take a look at the pdf in the root directory for the processors specs. 
 
 ##Todo:
--Interrupt system
--Slow down to fixed frequency
--Comments in ASM language
--Hack up an input system for processor
--Timers
--Second core (already implemented, but removed in the mean-time)
--Primitive OS with CPU scheduler, paging system, & system calls
--Open/Save files (fixed disk size)
--Networking?? (Jesus Christ..)
+- Interrupt system
+- Slow down to fixed frequency
+- Comments in ASM language
+- Hack up an input system for processor
+- Timers
+- Second core (already implemented, but removed in the mean-time)
+- Primitive OS with CPU scheduler, paging system, & system calls
+- Open/Save files (fixed disk size)
+- Networking?? (Jesus Christ..)
