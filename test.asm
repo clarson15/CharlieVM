@@ -1,0 +1,21 @@
+	SET R2 65535
+	SET R1 0
+.before
+	CMP R1 100
+	JIG after
+	ADD R1 1
+	SET [R2] 104
+	SET [R2] 101
+	SET [R2] 108
+	SET [R2] 108
+	SET [R2] 111
+	SET [R2] 32
+	SET [R2] 119
+	SET [R2] 111
+	SET [R2] 114
+	SET [R2] 108
+	SET [R2] 100
+	SET [R2] 10
+	JMP before
+.after
+	HLT
